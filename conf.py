@@ -16,13 +16,14 @@ author = "Henry Webel"
 
 extensions = [
     "myst_nb",
-    # "sphinx_design", # interactive webcomponents
-    # "sphinx_copybutton",
-    # "sphinx_examples",
+    # "sphinx_design", # https://sphinx-design.readthedocs.io/en/sbt-theme/
+    # "sphinx_copybutton", # https://sphinx-copybutton.readthedocs.io/
     "sphinx_new_tab_link",
 ]
 
 templates_path = ["_templates"]
+# As we can use percent notebooks and markdowns files, we need to exclude some files
+# additinally to the default ones (add to the list if needed)
 exclude_patterns = [
     "_build",
     "Thumbs.db",
