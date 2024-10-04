@@ -24,6 +24,10 @@ see instructions
 
 ### 3. Edit files
 
+You will need to know the Markdown to format your text. See 
+[this overview on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
+or [this cheatsheet](https://www.markdownguide.org/cheat-sheet/) to get started.
+
 - update in `conf.py` at least the author, project and copyright information at the top
   - also update two urls to your repository:
    ```json
@@ -36,7 +40,16 @@ see instructions
 - use [pandoc](https://pandoc.org/try/) to convert your previous files into markdown or
   reStructuredText
 
+Troubleshooting:
+ - don't forget to add new files to the `index.md` file
+ - each document should have a title (`# title`) using a main heading and otherwise 
+   nested headlines (subheadings followed by sub-subheadings)
+
 ### 4. Build the site locally
+
+Sphinx uses the configuration file `conf.py` to set up the site. The `requirements.txt` file
+contain extensions and themes that are used additionally to sphinx to build the site.
+The layout of the website is defined in the `index.md` file.
 
 > Have look at `.github/workflows/build_website.yaml` to see how the site is built
 > if you are interested.
@@ -65,3 +78,4 @@ Follow
 to publish the website using GitHub Pages.
 
 - Select the `gh-pages` branch as the source for the GitHub Pages site (currently step 7)
+- add the deployed url to your "About" on the right sight of the repository
