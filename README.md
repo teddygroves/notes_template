@@ -79,3 +79,18 @@ to publish the website using GitHub Pages.
 
 - Select the `gh-pages` branch as the source for the GitHub Pages site (currently step 7)
 - add the deployed url to your "About" on the right sight of the repository
+
+
+## Changing the topic
+
+If you want to change the topic you can browse templates on the follwing site: [sphinx-themes.org/](https://sphinx-themes.org/)
+
+You will need to change at least these things to switch to the new template:
+
+- Install it and add it to the `requirements.txt` file (Sphinx templates come as a Python package)
+- Update `conf.py`:
+  - `html_theme` variable to the selected theme
+  - update the `html_theme_options` to the available options of the theme 
+
+Try for example the the [press theme](https://sphinx-themes.org/sample-sites/sphinx-press-theme/).
+Don't forget to update the `html_theme_options` in `conf.py` to the available options of this theme.
