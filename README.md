@@ -1,5 +1,9 @@
 # Template for a static website using Sphinx and GitHub Pages
 
+You can find a recording of the [instructions](#instructions) described below on youtube:
+[![Live Demo on using the template repository for a notes website](https://img.youtube.com/vi/XolIezJtSPI/maxresdefault.jpg
+)](https://www.youtube.com/watch?v=XolIezJtSPI)
+
 ## Instructions
 
 ### 1. Create new repository based on this template
@@ -20,7 +24,11 @@ see instructions
 - create a new codespace using the forked repository
 
 > If you are done, remember to delete the codespace to not see your free credit or money
-> wasted. Also inactive (stopped) codespaces use storage for the last 30 days.
+> wasted. Also inactive (stopped) codespaces use storage for the last 30 days. 
+> See [this youtube video](https://youtu.be/gY0usMl2o5I) on how to do it:
+
+[![Delete you codespaces!](https://img.youtube.com/vi/gY0usMl2o5I/default.jpg
+)](https://www.youtube.com/watch?v=gY0usMl2o5I)
 
 ### 3. Edit files
 
