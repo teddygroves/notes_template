@@ -20,8 +20,9 @@ see instructions
 
 ### 2. Open in GitHub Codespaces (or locally)
 
-- go to [github.com/codespaces](https://github.com/codespaces)
-- create a new codespace using the forked repository
+- go to [github.com/codespaces](https://github.com/codespaces) or use the "Code" button
+  and select "Open with Codespaces"
+- create a new codespace using the newly created repository
 
 > If you are done, remember to delete the codespace to not see your free credit or money
 > wasted. Also inactive (stopped) codespaces use storage for the last 30 days. 
